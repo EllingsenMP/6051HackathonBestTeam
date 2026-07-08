@@ -8,3 +8,4 @@ torchvision
 accelerate>=0.30
 safetensors
 sentencepiece
+scikit-learn>=1.4.2
