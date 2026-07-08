@@ -56,7 +56,7 @@ def generate_it_response(prompt: str) -> str:
 
 # 4. Load Dataset
 
-df = pd.read_csv("../data/eduBotSample30.csv")
+df = pd.read_csv("../data/eduBotSampleSpanish30.csv")
 
 # Your dataset columns are:
 # ['id', 'subject', 'grade_level', 'topic', 'student_input',
@@ -106,8 +106,8 @@ seconds = elapsed_time % 60
 
 # 6. Save Results
 
-df.to_csv("../results/eduBot30_gemma_responses.csv", index=False)
+df.to_csv("../results/eduBotSpanish30_gemma_responses.csv", index=False)
 
-print("Done. Saved results to ../results/eduBot30_gemma_responses.csv")
+print("Done. Saved results to ../results/eduBotSpanish30_gemma_responses.csv")
 print(f"Total generation time: {minutes} minutes and {seconds:.2f} seconds")
 print(f"Average time per row: {elapsed_time / len(df):.2f} seconds")
