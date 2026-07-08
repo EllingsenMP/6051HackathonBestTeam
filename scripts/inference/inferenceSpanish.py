@@ -56,7 +56,7 @@ def generate_it_response(prompt: str) -> str:
 
 # 4. Load Dataset
 
-df = pd.read_csv("../data/eduBotSampleSpanish30.csv")
+df = pd.read_csv("../../data/eduBotSampleSpanish30.csv")
 
 # Your dataset columns are:
 # ['id', 'subject', 'grade_level', 'topic', 'student_input',

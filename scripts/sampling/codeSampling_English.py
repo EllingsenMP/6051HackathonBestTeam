@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv('../data/chatbot_tutor_50k_dataset.csv')
+data = pd.read_csv('../../data/chatbot_tutor_50k_dataset.csv')
 
 sample_5000 = data.sample(5000, random_state = 6051)
 sample_5000.to_csv('../data/eduBotSample5000.csv')
