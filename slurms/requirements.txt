@@ -8,3 +8,4 @@ torchvision
 accelerate>=0.30
 safetensors
 sentencepiece
+openpyxl
