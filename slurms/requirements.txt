@@ -1,0 +1,10 @@
+huggingface_hub
+pandas
+numpy
+torch>=2.1
+transformers>=4.44
+pillow
+torchvision
+accelerate>=0.30
+safetensors
+sentencepiece
